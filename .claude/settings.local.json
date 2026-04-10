@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(vercel --version:*)",
+      "Bash(npm install:*)",
+      "Bash(vercel --yes:*)",
+      "Bash(vercel login)",
+      "Bash(npm run build:*)",
+      "Bash(zip:*)"
+    ]
+  }
+}
