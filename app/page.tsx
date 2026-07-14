@@ -1,7 +1,6 @@
 import { Header } from "./components/layout/Header";
 import { Footer } from "./components/layout/Footer";
 import { HeroSection } from "./components/hero/HeroSection";
-import { BrandsSection } from "./components/brands/BrandsSection";
 import { AboutSection } from "./components/about/AboutSection";
 import { ProjectsSection } from "./components/projects/ProjectsSection";
 import { SectorsSection } from "./components/sectors/SectorsSection";
@@ -15,7 +14,6 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
-        <BrandsSection />
         <AboutSection />
         <ProjectsSection />
         <StatsSection />
