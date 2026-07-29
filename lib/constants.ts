@@ -357,6 +357,21 @@ export const LEARN_ABOUT_CONTENT = {
   },
 } as const;
 
+export const COMPANY_CONTACT = {
+  name: "Mega Glass LLC",
+  location: "Vienna, Virginia",
+  phone: "(703) 445-4005",
+  phoneHref: "tel:+17034454005",
+  email: "ivl@megaglassdc.com",
+  emailHref: "mailto:ivl@megaglassdc.com",
+} as const;
+
+export const SMS_CONSENT = {
+  version: "MG-SMS-CONSENT-2026-07-29-v1",
+  text:
+    "By checking this box, I agree to receive conversational and informational text messages from Mega Glass LLC regarding estimates, scheduling, project updates, and customer support. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. Consent is not a condition of purchase. View our Privacy Policy and SMS Terms and Conditions.",
+} as const;
+
 export const CONTACT_CONTENT = {
   eyebrow: "SEND US MESSAGE",
   heading: "Contact Us!",
@@ -367,6 +382,8 @@ export const CONTACT_CONTENT = {
     namePlaceholder: "Full Name",
     emailLabel: "E-Mail",
     emailPlaceholder: "example@gmail.com",
+    mobilePhoneLabel: "Mobile Phone Number",
+    mobilePhonePlaceholder: "(555) 555-0123",
     messageLabel: "Message",
     messagePlaceholder: "Write Message Here",
     submitText: "Send Message",
