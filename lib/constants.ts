@@ -362,8 +362,6 @@ export const COMPANY_CONTACT = {
   location: "Vienna, Virginia",
   phone: "(703) 445-4005",
   phoneHref: "tel:+17034454005",
-  email: "ivl@megaglassdc.com",
-  emailHref: "mailto:ivl@megaglassdc.com",
 } as const;
 
 export const SMS_CONSENT = {

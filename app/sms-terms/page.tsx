@@ -101,13 +101,13 @@ export default function SmsTermsPage() {
             {COMPANY_CONTACT.phone}
           </a>
           <br />
-          Email:{" "}
-          <a
-            href={COMPANY_CONTACT.emailHref}
+          Online:{" "}
+          <Link
+            href="/#contact"
             className="text-mega-teal underline underline-offset-2"
           >
-            {COMPANY_CONTACT.email}
-          </a>
+            Contact Us form
+          </Link>
         </address>
       </section>
 
